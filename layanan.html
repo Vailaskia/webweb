@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layanan Kami</title>
+    <link rel="stylesheet" href="style.css">
+    <script>
+        document.addEventListener('contextmenu', function(e) {
+            e.preventDefault();
+        });
+
+        document.addEventListener('keydown', function(e) {
+            if (e.key === 'F12' || (e.ctrlKey && e.shiftKey && e.key === 'I')) {
+                e.preventDefault();
+            }
+        });
+
+        document.addEventListener('keydown', function(e) {
+            if (e.ctrlKey && e.key === 'U') {
+                e.preventDefault();
+            }
+        });
+    </script>
+</head>
+<body>
+    <header>
+        <h1>Layanan Kami</h1>
+        <a href="index.html" class="back-button">Kembali</a>
+    </header>
+    <main>
+        <section id="layanan" class="services">
+            <div class="service-card">
+                <h3>Farming Artefak</h3>
+                <p>Dapatkan artefak terbaik untuk karakter Anda. Harga mulai dari Rp 250.000 Sampai mendapatkan arte yang sekira nya pas lah ya.</p>
+            </div>
+            <div class="service-card">
+                <h3>Weekly Boss</h3>
+                <p>Kalahkan boss mingguan untuk mendapatkan hadiah eksklusif. Harga mulai dari Rp 40.000 untuk semua Weekly Boss di teyvat.</p>
+            </div>
+            <div class="service-card">
+                <h3>Spiral Abyss</h3>
+                <p>Selesaikan Spiral Abyss dan dapatkan hadiah eksklusif. Harga mulai dari Rp 160.000 FULL LANTAI dan BINTANG. [itu pun tergantung dari karakter kalian ya.]</p>
+            </div>
+            <div class="service-card">
+                <h3>Mancing Mania</h3>
+                <p>Punya tapi males refine atau belum punya tapi males mancing? Tenang kami yang akan mancing buat anda. Harga mulai dari Rp 170.000/weapon.</p>
+            </div>
+            <div class="service-card">
+                <h3>Rawat Akun</h3>
+                <p>Kami akan merawat akun Anda dengan melakukan daily, weekly boss, dan menyelesaikan event. Harga mulai dari Rp 200.000/bulan.</p>
+            </div>
+        </section>
+    </main>
+    <footer>
+    </footer>
+</body>
+</html>
